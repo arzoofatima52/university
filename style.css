@@ -1,0 +1,115 @@
+
+body{
+    margin: 0px;
+    
+}
+
+table{
+
+    border-collapse: collapse;
+ 
+   margin: 100px;
+    box-shadow: 2px 2px 2px 2px;
+    ;
+}
+td{
+    height: 100px;
+}
+.input{
+
+    display: flex;
+
+    writing-mode: horizontal-tb !important;
+
+    
+}
+
+table a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+}
+
+fieldset{
+
+
+    margin: 20px 30px 0px 40px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+#abc {
+    align-items: center;
+  
+
+}
+
+#lname{
+    border: 2px solid black;
+}
+ #bd{
+
+  
+    margin: 10px 10px 0px 40px;
+  
+    display: block;
+    font-size: 20px;
+}
+
+.date{
+    float:left;
+    display: flex;
+    padding-bottom: 20px;
+}
+.month select{
+
+    background: #fff url(images/bg.png) no-repeat scroll;
+    background-position: right 6px center;
+    z-index: 1;
+    position: relative;
+    border: 2px solid black;
+    padding: 10.4px 13px;
+    width: 100px;
+    appearance: none ;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+
+.date .dd select{
+
+    background: #fff url(images/bg.png) no-repeat scroll;
+    background-position: right 6px center;
+    z-index: 1;
+    position: relative;
+    border: 2px solid black;
+    padding: 10.4px 13px;
+    width: 100px;
+    appearance: none ;
+    margin-right: 20px;
+
+
+}
+.date .year select{
+
+    background: #fff url(images/bg.png) no-repeat scroll;
+    background-position: right 6px center;
+    z-index: 1;
+    position: relative;
+    border: 2px solid black;
+    padding: 10.4px 13px;
+    width: 100px;
+    appearance: none ;
+    margin-right: 20px;
+
+
+}
+.gender{
+    
+    margin: 20px 10px 0px 40px;
+  
+    display: block;
+    font-size: 20px;
+    padding-bottom: 20PX;
+}
